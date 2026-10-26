@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "improved-private-messages",
+	"version": "${version}",
+	"name": "BL Improved Private Messages",
+	"description": "A modern Discord-style DM interface for Minecraft multiplayer. Intercepts whispers and displays them in a clean per-server conversation UI — fully client-side, no server plugin required.",
+	"authors": [
+		"Battry"
+	],
+	"contact": {
+		"homepage": "https://github.com/battry/blipm",
+		"sources": "https://github.com/battry/blipm",
+		"issues": "https://github.com/battry/blipm/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/improved-private-messages/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.battry.blipm.ImprovedPrivateMessages"
+		],
+		"client": [
+			"com.battry.blipm.client.ImprovedPrivateMessagesClient"
+		]
+	},
+	"mixins": [
+		"improved-private-messages.mixins.json",
+		{
+			"config": "improved-private-messages.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

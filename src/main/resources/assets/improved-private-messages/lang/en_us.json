@@ -1,0 +1,18 @@
+{
+  "blipm.gui.title": "Messages",
+  "blipm.gui.new_conversation": "New Conversation",
+  "blipm.gui.search_placeholder": "Search players...",
+  "blipm.gui.message_placeholder": "Message %s...",
+  "blipm.gui.no_conversations": "No conversations yet.",
+  "blipm.gui.send": "Send",
+  "blipm.gui.online": "Online",
+  "blipm.gui.offline": "Offline",
+  "blipm.gui.pinned": "Pinned",
+  "blipm.gui.unpin": "Unpin",
+  "blipm.gui.pin": "Pin",
+  "blipm.gui.delete_conversation": "Delete Conversation",
+  "blipm.gui.close": "Close",
+  "blipm.toast.new_message": "New message from %s",
+  "blipm.keybind.open": "Open Messages",
+  "blipm.keybind.category": "BL Improved Private Messages"
+}
